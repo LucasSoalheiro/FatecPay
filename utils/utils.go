@@ -2,7 +2,6 @@ package utils
 
 import (
 	"bufio"
-
 	"fmt"
 	"hash/fnv"
 	"math"
@@ -20,6 +19,7 @@ import (
 
 	"github.com/gorilla/websocket"
 	jsoniter "github.com/json-iterator/go"
+
 )
 
 type (
@@ -132,7 +132,7 @@ var (
 
 var (
 	TelegramExposureChatId = "-4093741784"
-	TelegramBotToken       = "5796135439:AAGX2W8qz7yIxphut4SzsO5aoZvtHmsbDk0"
+	TelegramBotToken       = "key"
 	TelegramBotUrl         = "https://api.telegram.org/bot" + TelegramBotToken
 )
 
